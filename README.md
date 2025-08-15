@@ -20,7 +20,7 @@ Have fun :-)</br>
 multiple_fan part cooler added</br>
 tacometer pin for fan2 and 3 added (yet not tested)</br>
 cooling fan for ssr changed to controller fan</br>
-max:accel reduced to 5500</br>
+max_accel reduced to 5500</br>
     (make sure to change it in your slicer settings for printer and print profile)</br>
 max_cruise_ratio upped to 0.35</br>
 </br>
