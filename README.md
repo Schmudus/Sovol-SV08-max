@@ -2,7 +2,7 @@
 These are the config files from my Sovol SV08max.</br>
 I installed reshelper to easy handle input shaper with automatic generation the png pictures</br>
 Take care for the folders. reshelper use the "update" folder from Sovol. I deletet it and then it is okay. PNG will be in home/sovol/klipper/config/RES_DATA </br>
-I mainly rearrange and divide them.</br>
+I mainly rearrange and divide the .cfg files to my standard.</br>
 Print start and end gcode is newly written. Moved the procedure from Orcaslicer to Klipper.</br>
 Changed the speed and accel for the buffer, because my one was eating filament a little and made a strange sound. Printed up to 30mm³/s without any problem</br>
 Printer is standard and uses a 0.6mm nozzle (if you use 0.4mm change it in printer.cfg)</br>
