@@ -1,1 +1,29 @@
-# Sovol-SV08-max
+# Sovol-SV08-max</br>
+These are the config files from my Sovol SV08max.</br>
+I installed reshelper to easy handle input shaper with automatic generation the png pictures</br>
+I mainly rearrange and divide them.</br>
+Print start and end gcode is newly written. Moved the procedure from Orcaslicer to Klipper.</br>
+Changed the speed and accel for the buffer, because my one was eating filament a little and made a strange sound. Printed up to 30mm³/s without any problem</br>
+Printer is standard and uses a 0.6mm nozzle (if you use 0.4mm change it in printer.cfg)</br>
+ORCA MACHINE START G-CODE:</br>
+M104 S0</br>
+M140 S0</br>
+START_PRINT EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] MATERIAL=[filament_type] VENDOR=[filament_vendor] CHAMBER_TEMP=[chamber_temperature] TOOL={initial_tool}</br>
+</br>
+ORCA MACHINE END G-CODE:</br>
+END_PRINT</br>
+</br>
+Have fun :-)</br>
+</br>
+15.08.2025</br>
+multiple_fan part cooler added</br>
+tacometer pin for fan2 and 3 added (yet not tested)</br>
+cooling fan for ssr changed to controller fan</br>
+max:accel reduced to 5500</br>
+    (make sure to change it in your slicer settings for printer and print profile)</br>
+max_cruise_ratio upped to 0.35</br>
+</br>
+</br>
+</br>
+LOT OF UPDATES:</br>
+https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/blob/a77fac0396def972f6b2f291deeeff3f3a48ec80/Documentation/INSTALL_INSTRUCTIONS/SOVOL_SV08_MAX_SETUP/SV08_MAX_EXTRA_INSTRUCTIONS.md</br>
