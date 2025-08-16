@@ -34,6 +34,6 @@ max_accel up to 25000, because it doesn't matter if you're not printing.</br>
 </br>
 </br>
 </br>
-##LOT OF UPDATES:</br>
+## LOT OF UPDATES:</br>
 https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/blob/a77fac0396def972f6b2f291deeeff3f3a48ec80/Documentation/INSTALL_INSTRUCTIONS/SOVOL_SV08_MAX_SETUP/SV08_MAX_EXTRA_INSTRUCTIONS.md</br>
 
