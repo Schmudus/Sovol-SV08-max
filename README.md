@@ -20,7 +20,7 @@ END_PRINT</br>
 </br>
 Have fun :-)</br>
 </br>
-##15.08.2025</br>
+## 15.08.2025</br>
 multiple_fan part cooler added</br>
 tacometer pin for fan2 and 3 added (yet not tested)</br>
 cooling fan for ssr changed to controller fan</br>
@@ -28,7 +28,7 @@ max_accel reduced to 5500</br>
     (make sure to change it in your slicer settings for printer and print profile)</br>
 max_cruise_ratio upped to 0.35</br>
 </br>
-##16.08.2025</br>
+## 16.08.2025</br>
 reduced homing speed from 100 to 75 for X and Y</br>
 max_accel up to 25000, because it doesn't matter if you're not printing.</br>
 </br>
