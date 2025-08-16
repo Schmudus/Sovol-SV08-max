@@ -2,9 +2,9 @@
 These are the config files from my Sovol SV08max.</br>
 The original from Sovol (dated 15.08.2025) can be found in the second branch (original)</br>
 I mainly rearange and divide the .cfg files to my standard.</br>
-I installed reshelper to easier handling input shaper with automatic generation the png pictures</br>
 I de-installed Obico with kiauh even though kiauh is fuc*** on SOVOL machines</br>
-I updated the system with kiauh</br>
+I updated the system via kiauh</br>
+I installed reshelper to easier handling input shaper with automatic generation the png pictures</br>
 Take care for the folders. reshelper use the "update" folder from Sovol. I deletet it and then installation is okay. PNG will be in home/sovol/klipper/config/RES_DATA </br>
 Print start and end gcode is newly written. Moved the procedure from Orcaslicer to Klipper.</br>
 Changed the speed and accel for the buffer, because my one was eating filament a little and made a strange sound. Printed up to 30mm³/s without any problem</br>
