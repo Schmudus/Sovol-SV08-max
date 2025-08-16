@@ -2,8 +2,14 @@
 These are the config files from my Sovol SV08max.</br>
 The original from Sovol (dated 15.08.2025) can be found in the second branch (original)</br>
 I mainly rearange and divide the .cfg files to my standard.</br>
-I de-installed Obico with kiauh even though kiauh is fuc*** on SOVOL machines</br>
-I updated the system via kiauh</br>
+I de-installed Obico:</br>
+    https://www.obico.io/de-DE/docs/user-guides/moonraker-obico/uninstall/ </br>
+I updated the system via</br>
+    sudo apt upgrade --fix-missing</br>
+    /home/sovol/klippy-env/bin/python -m pip install --upgrade pip</br>
+Set timezone via</br>
+    timedatectl set-timezone Europe/Berlin</br>
+    (use your own timezone. List of all available via timedatectl</br>
 I installed reshelper to easier handling input shaper with automatic generation the png pictures</br>
 Take care for the folders. reshelper use the "update" folder from Sovol. I deletet it and then installation is okay. PNG will be in home/sovol/klipper/config/RES_DATA </br>
 Print start and end gcode is newly written. Moved the procedure from Orcaslicer to Klipper.</br>
@@ -31,6 +37,11 @@ max_cruise_ratio upped to 0.35</br>
 ## 16.08.2025</br>
 reduced homing speed from 100 to 75 for X and Y</br>
 max_accel up to 25000, because it doesn't matter if you're not printing.</br>
+</br>
+## 17.08.2025</br>
+Not sure if OTA works, but I activated the corresponding .cfg</br>
+Write _OTA in console to test.</br>
+</br>
 </br>
 </br>
 </br>
