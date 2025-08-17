@@ -8,7 +8,7 @@ I de-installed Obico:</br>
 SV08max is unfortunately running on an outdated bullseye.</br>
 The repo is even no longer in deb and moved to archive.</br>
 If you try to update/upgrade you will receive an error.</br>
-Here's an solution (attention: archive will not get any upfdates!)</br>
+Here's an solution (attention: archive will not get any updates!)</br>
 </br>
 	sudo nano /etc/apt/sources.list</br>
 search for the backport entries and change that to	</br>
