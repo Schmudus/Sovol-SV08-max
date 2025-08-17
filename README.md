@@ -22,7 +22,7 @@ sudo apt update</br>
 sudo apt upgrade</br>
 sudo apt full-upgrade</br>
 </br>
-There should be no fauilt anymore.</br>
+There should be no fault anymore.</br>
 </br>
     /home/sovol/klippy-env/bin/python -m pip install --upgrade pip</br>
 Set timezone via</br>
