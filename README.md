@@ -1,4 +1,5 @@
 # Sovol-SV08-max</br>
+### !!! FIND THE CONFIG FILES IN BRANCH "backup" !!!</br>
 These are the config files from my Sovol SV08max.</br>
 The original from Sovol (dated 15.08.2025) can be found in the second branch (original)</br>
 I mainly rearange and divide the .cfg files to my standard.</br>
