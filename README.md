@@ -4,8 +4,25 @@ The original from Sovol (dated 15.08.2025) can be found in the second branch (or
 I mainly rearange and divide the .cfg files to my standard.</br>
 I de-installed Obico:</br>
     https://www.obico.io/de-DE/docs/user-guides/moonraker-obico/uninstall/ </br>
-I updated the system via</br>
-    sudo apt upgrade --fix-missing</br>
+</br>
+SV08max is unfortunately running on an outdated bullseye.</br>
+The repo is even no longer in deb and moved to archive.</br>
+If you try to update/upgrade you will receive an error.</br>
+Here's an solution (attention: archive will not get any upfdates!)</br>
+</br>
+	sudo nano /etc/apt/sources.list</br>
+search for the backport entries and change that to	</br>
+	deb https://archive.debian.org/debian bullseye-backports main contrib non-free</br>
+	#deb-src https://archive.debian.org/debian bullseye-backports main contrib non-free</br>
+ change all entries to https://</br>
+Save the changes (ctrl-x   and   Y)</br>
+</br>
+sudo apt update</br>
+sudo apt upgrade</br>
+sudo apt full-upgrade</br>
+</br>
+There should be no fauilt anymore.</br>
+</br>
     /home/sovol/klippy-env/bin/python -m pip install --upgrade pip</br>
 Set timezone via</br>
     timedatectl set-timezone Europe/Berlin</br>
